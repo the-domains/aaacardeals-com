@@ -1,14 +1,26 @@
-layout_spectrum: 0.07965853
-color:
-  saturation: 0.697993
-  lightness: 0.8382297
-  brandStrength: 0.4580224
-  brandColors:
-    - '#0C0404'
-    - '#534230'
-    - '#FFFFFF'
-    - '#91A3A2'
-    - '#E1881F'
-  rhythmicContrast: 0.8416255
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 typography_spectrum: 0.8629992
+color:
+  saturation: 0.7583955
+  brandStrength: 0.4580224
+  lightness: 0.7066231
+  brandColors:
+    - '#1F201B'
+    - '#FFFFFF'
+    - '#51402E'
+    - '#A2B5B3'
+    - '#825F49'
+  rhythmicContrast: 0.6781716
+layout_spectrum: 0.3829291
 name: AAAcarDeals.com
